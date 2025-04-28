@@ -22,7 +22,7 @@ class persegipanjang
         luas = panjang * lebar;
         
     }
-    void outputdata()
+    void displaydata()
     {
         cout << "luas persegi panjang adalah: " << luas << endl;
     }
@@ -34,6 +34,6 @@ class persegipanjang
     persegipanjang per;
     per.inputdata();
     per.menghitungluas();
-    per.outputdata();
+    per.displaydata();
     return 0;
  }
