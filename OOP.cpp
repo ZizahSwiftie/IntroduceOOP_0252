@@ -8,7 +8,9 @@ class planet{
         string nama;
         float diameter;
         
-        
+        void displaydata(){
+            cout << "halo aku planet "<< nama << ", ukuranku "<< diameter <<", gravitasiku "<< gravitasi<< endl;
+        }  
 
 }; 
 int main()
